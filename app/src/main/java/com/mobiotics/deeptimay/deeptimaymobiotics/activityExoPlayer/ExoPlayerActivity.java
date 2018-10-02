@@ -66,13 +66,7 @@ public class ExoPlayerActivity extends AppCompatActivity {
         ButterKnife.bind(this);
 
         try {
-            Intent intent = this.getIntent();
-            Bundle bundle = intent.getExtras();
-
-            record = (Records) bundle.getSerializable("selectedData");
-            tvTitle.setText(record.getTitle());
-            tvDescription.setText(record.getDescription());
-            Log.d("before Insert", record.toString());
+            initializeView(this.getIntent());
 
         } catch (Exception e) {
             e.printStackTrace();
@@ -80,6 +74,17 @@ public class ExoPlayerActivity extends AppCompatActivity {
 
         initializePlayer();
         showRecords();
+    }
+
+
+    private void initializeView(Intent intent) {
+
+        Bundle bundle = intent.getExtras();
+
+        record = (Records) bundle.getSerializable("selectedData");
+        tvTitle.setText(record.getTitle());
+        tvDescription.setText(record.getDescription());
+        Log.d("before Insert", record.toString());
     }
 
     private void showRecords() {
