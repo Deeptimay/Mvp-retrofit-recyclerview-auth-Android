@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "191306572989",
+    "firebase_url": "https://mobioticstest-9ec1f.firebaseio.com",
+    "project_id": "mobioticstest-9ec1f",
+    "storage_bucket": "mobioticstest-9ec1f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:191306572989:android:f985d18d4d035283",
+        "android_client_info": {
+          "package_name": "com.mobiotics.deeptimay.deeptimaymobiotics"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "191306572989-qk3lc2i9vtuht6uk7unql94gbt0efoj0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mobiotics.deeptimay.deeptimaymobiotics",
+            "certificate_hash": "4a4b532b254c9d09e82e8e57f90b74791ea3e47f"
+          }
+        },
+        {
+          "client_id": "191306572989-almkc38tu4rer4mtaeecu6ehe0eg915e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1Od04wmIcFYw0R3Is-exxDVEivIItl8M"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "191306572989-almkc38tu4rer4mtaeecu6ehe0eg915e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
